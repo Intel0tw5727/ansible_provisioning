@@ -1,6 +1,6 @@
 vars:
-  homebrew_taps:
-   - homebrew/dupes
+  # homebrew_taps:
+  #  - homebrew/dupes
 
   homebrew_packages:
     - { name: autoconf }
