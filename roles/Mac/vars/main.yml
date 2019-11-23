@@ -1,6 +1,6 @@
 vars:
   homebrew_taps:
-    - caskroom/cask
+   - homebrew/dupes
 
   homebrew_packages:
     - { name: autoconf }

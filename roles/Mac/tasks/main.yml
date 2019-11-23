@@ -5,7 +5,7 @@
 
 - name: homebrew update
   homebrew:
-    update_homebrew: no
+    update_homebrew: yes
 
 - name: add homebrew tap repository
   homebrew_tap:
