@@ -1,0 +1,8 @@
+# example
+- name: 'Dock tilesize'
+  osx_defaults:
+    domain: 'com.apple.dock'
+    key: 'tilesize'
+    type: 'float'
+    value: 60
+    state: 'present'

@@ -1,0 +1,8 @@
+vars:
+  homebrew_tap:
+    # 使わないtapは削除する
+    - homebrew/binary
+    - homebrew/dupes
+    - homebrew/science
+    - caskroom/cask
+    - caskroom/versions
