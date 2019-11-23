@@ -1,42 +1,34 @@
 vars:
-  - name: homebrew_taps
-    homebrew_taps:
-      # 使わないtapは削除する
-      - homebrew/binary
-      - homebrew/dupes
-      - homebrew/science
-      - caskroom/cask
-      - caskroom/versions
+  homebrew_taps:
+    - caskroom/cask
 
-  - name: homebrew_packages
-    homebrew_packages:
-      - { name: autoconf }
-      - { name: automake }
-      - { name: curl }
-      - { name: cmake }
-      - { name: gcc }
-      - { name: git }
-      - { name: imagemagick }
-      - { name: nkf }
-      - { name: openssl }
-      - { name: peco }
-      - { name: tree }
-      - { name: vim, install_options: with-lua }
-      - { name: wget }
-      - { name: zsh, install_options: disable-etcdir }
+  homebrew_packages:
+    - { name: autoconf }
+    - { name: automake }
+    - { name: curl }
+    - { name: cmake }
+    - { name: gcc }
+    - { name: git }
+    - { name: imagemagick }
+    - { name: nkf }
+    - { name: openssl }
+    - { name: peco }
+    - { name: tree }
+    - { name: vim, install_options: with-lua }
+    - { name: wget }
+    - { name: zsh, install_options: disable-etcdir }
 
-  - name: homebrew_cask_packages
-    homebrew_cask_packages:
-      - { name: 1password }
-      - { name: alfred }
-      - { name: coteditor }
-      - { name: docker }
-      - { name: gimp }
-      - { name: google-chrome }
-      - { name: google-japanese-ime }
-      - { name: iterm2 }
-      - { name: karabiner-elements }
-      - { name: slack }
-      - { name: vivaldi }
-      - { name: xquartz }
-      - { name: zoomus }
+  homebrew_cask_packages:
+    - { name: 1password }
+    - { name: alfred }
+    - { name: coteditor }
+    - { name: docker }
+    - { name: gimp }
+    - { name: google-chrome }
+    - { name: google-japanese-ime }
+    - { name: iterm2 }
+    - { name: karabiner-elements }
+    - { name: slack }
+    - { name: vivaldi }
+    - { name: xquartz }
+    - { name: zoomus }
