@@ -20,6 +20,7 @@ vars:
 
   homebrew_cask_packages:
     - { name: 1password }
+    - { name: 1password-cli }
     - { name: alfred }
     - { name: coteditor }
     - { name: docker }
@@ -28,7 +29,10 @@ vars:
     - { name: google-japanese-ime }
     - { name: iterm2 }
     - { name: karabiner-elements }
+    - { name: microsoft-office }
+    - { name: pycharm }
     - { name: slack }
+    - { name: visual-studio-code }
     - { name: vivaldi }
     - { name: xquartz }
     - { name: zoomus }
